@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 15;
+    color: #252525;
+}
+
+h5{
+    font-family: font-family: 'Lora', serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 27px;
+    line-height: 41px;
+    letter-spacing: 15;
+    color: #EA9B54;
+    
+}
+
+.nav-link{
+    color: #252525;
+    transition: all 1s;
+    
+}
+
+.nav-link:hover{
+    background-color: #EA9B54;
+    color: white;
+    box-shadow: 0px 2px 4px #A96E3C;
+}
+
+.navbar{
+  background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.banner{
+    background: url(zasoby/barn.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box{
+    text-align: right;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 25px 55px 25px 25px;
+    outline: 2px solid white;
+    outline-offset: 15px;
+}
+
+.lead{
+    color: #252525;
+    font-size: 25px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+h4{
+    color: #252525;
+    font-size: 50px;
+}
+
+#woden{
+    width: 658 px;
+    height: 615 px;
+}
+
+h6{
+
+    font-size: 20px;
+}
+ 
+.offer{
+    
+}
+
+.btn{
+    background-color: #EA9854;
+    border: none;
+    box-shadow: 0px 2px 4px #A96E3C;
+    margin: 25;
+}
+
+
+.btn:hover{
+    background-color: #C58041;
+}
+
+h4{
+    font-family: 'lora', serif;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+spam{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    color: #EA9854;
+}
+
+#lake{
+    background-image: url(zasoby/jezioro.jpg); 
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+form{
+    background-image: url(zasobyxd/molo.jpg);
+    background-size: cover;
+    padding: 45px 60px 0 60px 
+}
+
+.form-control{
+   background-color: rgba(255, 255, 255, .9); 
+    border: none;
+}
+
+/* animation */
+
+.ikon{
+  transition: transform 1s;
+}
+
+.ikon:hover{
+    transform: scale(1.3);
+}
+
+.card{
+    transition: transform 1s;  
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 720px){
+    
+  
+    #box h4{
+    font-size: 30px;
+    line-height: 35px;
+     text-align: left;    
+    }
+    
+    .lead{
+    font-size: 17px;
+    line-height: 20px; 
+    text-align: left; 
+    padding: 2px;
+    margin: 0px;
+    }
+    
+    
+  #dispozition h6{
+        font-size: 16px;
+      padding-left: 0px;
+    }
+    
+    #dispozition img{
+        width: 50px;
+        height: 50px; 
+
+    }
+    #dispozition{
+       width: 100%;
+    }
+    
+    #lake{
+    width: auto;
+    text-align: center;
+    }
+    
+    .lake spam{
+        background-color: rgba(255, 255, 255, .9); 
+        padding: 5px;
+    }
+    
+    #lake h4{
+        font-size: 32px;
+    
+    }
+    
+   
+    
+ 
